@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "miniai"
+  site-url: "https://ruxandra2ichim.github.io/miniai"
+  description: "Implementing fast.ai's miniai"
+  repo-branch: main
+  repo-url: "https://github.com/ruxandra2ichim/miniai"
