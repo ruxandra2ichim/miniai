@@ -12,4 +12,9 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     # steps: [uses: fastai/workflows/quarto-ghp@master]
-    steps: [uses: actions/quarto-ghp@master]
+    # steps: [uses: actions/quarto-ghp@master]
+    steps:
+    - uses: actions/checkout@master
+      name: Checkout
+    - uses: actions/quarto-ci@master
+      name: Test

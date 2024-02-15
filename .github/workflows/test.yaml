@@ -5,4 +5,9 @@ jobs:
   test:
     runs-on: ubuntu-latest
     # steps: [uses: fastai/workflows/nbdev-ci@master]
-    steps: [uses: actions/nbdev-ci@master]
+    # steps: [uses: actions/nbdev-ci@master]
+    steps:
+    - uses: actions/checkout@master
+      name: Checkout
+    - uses: actions/nbdev-ci@master
+      name: Test
