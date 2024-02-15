@@ -7,7 +7,7 @@ jobs:
     # steps: [uses: fastai/workflows/nbdev-ci@master]
     # steps: [uses: actions/nbdev-ci@master]
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@main
       name: Checkout
     - uses: ./.github/actions/nbdev-ci
       name: Test

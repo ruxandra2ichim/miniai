@@ -14,7 +14,7 @@ jobs:
     # steps: [uses: fastai/workflows/quarto-ghp@master]
     # steps: [uses: actions/quarto-ghp@master]
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@main
       name: Checkout
     - uses: ./.github/actions/quarto-ci
       name: Test
